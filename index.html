@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whispered Aroma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  </head>
+  <body>
+      <header class="header">
+        <nav class="sidebar">
+          <i onclick=hideSideBar() class="fa-solid fa-xmark"></i>
+          <ul class="sidebar-nav">
+            <li><a href="#collection">COLLECTION</a></li>
+            <li><a href="#community">JOIN US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <div class="nav-logo">
+            <img src="Assets/WA - Emblem Mark - Brown.png" alt="">
+          </div>
+          <ul class="second-nav">
+            <li class="hide"><a href="#collection">COLLECTION</a></li>
+            <li class="hide"><a href="#community">JOIN US</a></li>
+            <li class="hide"><a href="#contact">CONTACT</a></li>
+            <li onclick=showSideBar()><i class="fa-solid fa-bars"></i></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="landing-section">
+          <div class="landing-section-image"></div>
+          <article>
+            Smell, how you <br />
+            want to be <span>addressed.</span>
+          </article>
+        </section>
+        <section id="collection" class="big-text-section">
+          <p class="message">
+            Fragrances made
+            <span class="slides-container">
+              <span class="slides">
+                <span class="slide">with love</span>
+                <span class="slide">for you</span>
+              </span>
+            </span>
+          </p>
+        </section>
+        <section class="collection">
+          <div class="collection-slide">
+            <div class="img hidden">
+              <img src="Assets/pexels-karolina-grabowska-4736017.jpg" alt="" />
+            </div>
+            <div class="img hidden">
+              <img src="Assets/pexels-karolina-grabowska-8361478.jpg" alt="" />
+            </div>
+            <div class="img hidden-2">
+              <img src="Assets/pexels-karolina-grabowska-8361493.jpg" alt="" />
+            </div>
+            <div class="img hidden-2">
+              <img src="Assets/pexels-karolina-grabowska-4736017.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="quote-section">
+          <div class="quote-section-container">
+            <div class="quote-img">
+              <img src="Assets/pexels-karolina-grabowska-4736017.jpg" alt="" />
+            </div>
+            <div class="quote">
+              <p>
+                “No elegance is possible without perfume. It is the unseen,
+                unforgettable, ultimate accessory.” <br />
+                – Coco Chanel
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="community" class="community">
+          <div class="community-container">
+            <div>
+              <p>
+                  Join our community <br> of scent lovers!
+              </p>
+            </div>
+            <div class="subscribe">
+              <input type="text" name="" id="">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="info-section">
+          <div class="info-section-container">
+            <div class="contact">
+              <div class="contact-info">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>No 9, Community road, off Pako, Akoka, Lagos.</p>
+              </div>
+              <div class="contact-info">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+2348147209778">+234 814 720 9778</a>
+              </div>
+              <div class="contact-info">
+                <i class="fa-regular fa-envelope"></i>
+                <p>whisperedaroma@gmail.com</p>
+              </div>
+            </div>
+      
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+        </section> 
+      </main>
+      <section class="second-logo-section">
+          <div class="second-logo">
+            <p><img src="Assets/WA - Emblem Mark - Brown.png" alt=""></p>
+          </div>
+      </section>
+      <footer>
+       <p>Copyright &copy; 2024 Whispered Aroma. All rights reserved.</p>
+      </footer>
+    
+    <script defer src="./script.js"></script>
+  </body>
+</html>
