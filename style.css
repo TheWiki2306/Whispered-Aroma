@@ -282,7 +282,7 @@ display: none;
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -636,14 +636,22 @@ footer p{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .landing-section article{
-    left: 8%;
+    top: 35%;
+    left: 10%;
+    font-size: 4em;
   }
 
   .big-text-section p {
     font-size: 4em;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .landing-section article{
+    left: 8%;
   }
 
   .info-section{

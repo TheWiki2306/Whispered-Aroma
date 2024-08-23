@@ -19,9 +19,8 @@ shownElement.forEach((el) => observer.observe(el));
 
 
 function showSideBar() {
-    const sidebar = document.querySelectorAll(".sidebar");
+    const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = "flex";
-    s
 }
 
 
